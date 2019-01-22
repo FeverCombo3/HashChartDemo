@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by wulin on 18-4-16 下午9:16.
+  ~ Copyright (c) 2018 Blockin. All Rights Reserved.
+  ~ Last modified 18-4-16 下午9:16.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Button正常状态下的背景 -->
+    <item android:drawable="@drawable/hash_rate_tab_right" android:state_checked="false" />
+    <!-- Button按下时的背景 -->
+    <item android:drawable="@drawable/hash_rate_tab_right_checked" android:state_checked="true" />
+
+</selector>

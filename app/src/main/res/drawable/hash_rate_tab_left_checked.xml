@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by wulin on 18-4-16 下午9:13.
+  ~ Copyright (c) 2018 Blockin. All Rights Reserved.
+  ~ Last modified 18-4-16 下午9:13.
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 矩形的圆角弧度 -->
+    <corners android:topLeftRadius="4dp"  android:bottomLeftRadius="4dp"/>
+    <!-- 矩形的填充色 -->
+    <solid android:color="@color/colorPrimary" />
+
+</shape>

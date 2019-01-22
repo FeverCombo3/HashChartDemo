@@ -1,0 +1,4 @@
+#Mon Nov 05 11:28:40 CST 2018
+base.0=/Users/yjq/AndroidStudioProjects/HashChartDemo/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

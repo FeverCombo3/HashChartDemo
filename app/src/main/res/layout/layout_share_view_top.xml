@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:id="@+id/hash_rate_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="(算力)TH/s"
+        android:textColor="#9c9d9d"
+        android:textSize="12sp" />
+
+    <RadioGroup
+        android:layout_marginRight="6dp"
+        android:id="@+id/hash_rate_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/hash_rate_rb_1h"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hash_rate_tab_left_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:text="1小时"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/hash_rate_rb_1d"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hash_rate_tab_right_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:text="1天"
+            android:textColor="@color/grey_5"
+            android:textSize="12sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginRight="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="拒绝率(%)"
+        android:layout_alignParentRight="true"
+        android:textColor="#9c9d9d"
+        android:textSize="12sp" />
+
+</RelativeLayout>
